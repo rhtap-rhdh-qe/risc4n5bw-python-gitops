@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: risc4n5bw-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/risc4n5bw-python-gitops
